@@ -21,6 +21,9 @@ const allowedOrigins = [
   "https://expense-tracker-app-three-beryl.vercel.app",
   "http://localhost:3000",
   "https://expense-tracker-app-knl1.onrender.com",
+  "https://spendee-expense-management.vercel.app",
+  "https://spendee-backend.onrender.com"
+
   // add more origins as needed
 ];
 

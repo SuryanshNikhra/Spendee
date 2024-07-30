@@ -47,11 +47,12 @@ const Login = () => {
     const { email, password } = values;
 
     setLoading(true);
-
+    try{
     const { data } = await axios.post(loginAPI, {
       email,
       password,
     });
+    
 
     if (data.success === true) {
       localStorage.setItem("user", JSON.stringify(data.user));
@@ -60,6 +61,9 @@ const Login = () => {
       setLoading(false);
     } else {
       toast.error(data.message, toastOptions);
+      setLoading(false);
+    } }catch(error){
+      toast.error("INVALID EMAIL OR PASSWORD", toastOptions);
       setLoading(false);
     }
   };

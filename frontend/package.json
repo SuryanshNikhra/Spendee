@@ -25,6 +25,7 @@
     "react-tsparticles": "^2.9.3",
     "tsparticles": "^2.9.3",
     "unique-names-generator": "^4.7.1",
+    "vercel": "^35.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
