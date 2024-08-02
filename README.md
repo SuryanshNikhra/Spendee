@@ -1,7 +1,7 @@
 
 # Expense Management System using MERN Stack
 
-### Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/](https://spendee-expense-management.vercel.app/
+### Live Website: https://spendee-expense-management.vercel.app/
 
 
 
